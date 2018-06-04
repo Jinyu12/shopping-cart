@@ -5,47 +5,61 @@
     <title></title>
     <style>
         table{
-            width: 500px;
-            text-align: center;
+            width: 700px;
             font-size: 30px;
+            text-align: center;
+           
         }
     </style>
 </head>
 <body>
-    <table border="1" cellspacing="0">
-        <thead>
-            <tr>id
-                <th >全选 <input type="checkbox" id="cAll" onclick="checkAll()"/></th>
-                <th>商品名称</th>
-                <th>单价</th>
-                <th>数量</th>
-                <th>价格</th>
-            </tr>
-        </thead>
-        <tbody id="tbody1">
+    
+  <tbody id="tbody1">
             <tr>
                 <td><input type="checkbox" class="checkbox1"  /></td>
-                <td>康师傅</td>
-                <td>4</td>
+                <td>人工智能</td>
+                <td>43</td>
                 <td><input type="text" name="" class="price"/></td>
                 <td class="money">0</td >
             </tr>
             <tr>
                 <td><input type="checkbox" class="checkbox1"/></td>
-                <td>冰红茶</td>
-                <td>3</td>
+                <td>计算机网络</td>
+                <td>38</td>
+                <td><input type="text" name="" class="price"/></td>
+                <td class="money">0</td >
+            </tr>
+           <tr>
+                <td><input type="checkbox" class="checkbox1"  /></td>
+                <td>JavaWeb</td>
+                <td>34</td>
+                <td><input type="text" name="" class="price"/></td>
+                <td class="money">0</td >
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checkbox1"  /></td>
+                <td>软件工程</td>
+                <td>38</td>
+                <td><input type="text" name="" class="price"/></td>
+                <td class="money">0</td >
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checkbox1"/></td>
+                <td>教育学</td>
+                <td>27</td>
                 <td><input type="text" name="" class="price"/></td>
                 <td class="money">0</td>
             </tr>
             <tr>
                 <td ><input type="checkbox" class="checkbox1"/></td>
-                <td>雪碧</td>
-                <td>3</td>
+                <td>学科教学论</td>
+                <td>30</td>
                 <td><input type="text" class="price"/></td>
                 <td class="money">0</td>
             </tr>
         </tbody>
-    </table>
+    </table>  
+    
      <sapn>总价：</sapn><span id="total">0</span><span>￥</span>
 </body>
-<script>
+
