@@ -60,6 +60,8 @@
         </tbody>
     </table>  
     
-     <sapn>总价：</sapn><span id="total">0</span><span>￥</span>
+       <font face="times" color="red" size="5"><sapn>总价：</sapn><span id="total">0</span><span>￥</span></font>
+  <button id="deletecheck" ng-click="deleteCheck()">清除所选</button>  
+                <button id="deleteall" ng-click="deleteAll()">清空购物车</button>  
 </body>
 
